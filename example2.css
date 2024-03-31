@@ -1,0 +1,27 @@
+ h2{
+    text-align: center;
+ }
+ .box{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    border-radius: 50%;
+     /* background:linear-gradient(orange,blue);  */
+    /* background :linear-gradient(to left,orange,blue); */
+     /* background: linear-gradient(80deg,orange,blue); */ 
+    background:conic-gradient(yellow,green,blue,purple,pink,red,orange,yellow); 
+}
+.box3{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    border-radius: 50%;
+    background:conic-gradient(yellow 0deg,yellow 30deg,orange 30deg,orange 60deg,red 60deg,red 90deg,blue 90deg,blue 120deg,green 120deg,green 150deg,pink 150deg,pink 180deg,brown 180deg,brown 210deg,coral 210deg,coral 240deg,blueviolet 240deg,blueviolet 270deg,gray 270deg,rgb(73, 69, 69) 300deg,aqua 300deg,rgb(195, 227, 227) 330deg,rgb(33, 34, 1) 330deg,rgb(39, 86, 39) 0deg);
+}
+.box2{
+    height: 250px;
+    width: 250px;
+    background:repeating-conic-gradient(yellow 10deg ,yellow 20deg,red 20deg,red 30deg); 
+    margin: auto;
+    border-radius: 50%;
+}
